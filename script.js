@@ -12,4 +12,4 @@ if (operation === "+") {
 } else if (operation === "/") {
   result = parseInt(num1) / parseInt(num2);
 }
-alert(result);
+alert(`${num1} ${operation} ${num2} = ${result}`);
